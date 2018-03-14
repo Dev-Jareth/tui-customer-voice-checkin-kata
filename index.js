@@ -9,7 +9,7 @@ const data = {booking:{data:{331:{roomId:401,customers:["Bob Sinclaire","Mary Ma
 
 app.use(express.static( 'public'))
 io.on('connection',client=>{
-    client.on('getBooking',id=>client.emit('bookingDetails',data.booking.byId(id)))
+    client.on('getBookingDetails',id=>client.emit('bookingDetails',data.booking.byId(id)))
 })
 
 server.listen(8000, () => console.log('Example app listening on port 8000!'))
