@@ -1,0 +1,35 @@
+{
+  "name": "tui-uk-dev-tui-customer-voice-checkin-kata-9bdf4aee122d",
+  "version": "1.0.0",
+  "description": "### Objective > __KEY OBJECTIVE:__ > Build a simple app that allows a customer to check-in to their room using their voice at a hotel reception",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Jareth/tui-customer-voice-checkin-kata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dev-Jareth/tui-customer-voice-checkin-kata/issues"
+  },
+  "homepage": "https://github.com/Dev-Jareth/tui-customer-voice-checkin-kata#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
